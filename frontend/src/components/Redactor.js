@@ -6,7 +6,7 @@ const Redactor = () => {
     const {user, login} = UserAuth();
   return (
       <>
-      <button className='bg-black text-white text-xl w-[200px] h-[100px] rounded'>Authenticate</button>
+      <button onClick={login} className='bg-black text-white text-xl w-[200px] h-[100px] rounded'>Authenticate</button>
       </>
   )
 }
